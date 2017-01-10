@@ -66,4 +66,7 @@ public class SoftfallerR extends Recipes{
 
     public static void shapeless(){
     }
+
+    public static void nocm(){
+    }
 }

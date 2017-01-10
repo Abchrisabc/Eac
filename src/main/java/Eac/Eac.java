@@ -93,13 +93,13 @@ public class Eac
     public static Achievement airoremined;
     public static Achievement shadoworemined;
 	protected static ToolMaterial aerial = EnumHelper.addToolMaterial("Aerial", 4, 1600, 12.0F, 8.5F, 30);
-	protected static ToolMaterial airToolMaterial = EnumHelper.addToolMaterial("AirTool", 3, 1600, 12.0F, 3.0F, 13);
-	protected static ToolMaterial shadowToolMaterial = EnumHelper.addToolMaterial("ShadowTool", 4, 1850, 13.5F, 4.0F, 17);
-	protected static ToolMaterial enderPerliteToolMaterial = EnumHelper.addToolMaterial("EnderPerlite", 5, 2250, 15.0F, 5.0F, 21);
-	protected static ToolMaterial enderblood = EnumHelper.addToolMaterial("EnderBlood", 6, 20000, 13.0F, 14.5F, 30);
-	protected static ArmorMaterial airArmorMaterial = EnumHelper.addArmorMaterial("AirArmor", 45, new int[]{3, 8, 6, 3}, 30);
-	protected static ArmorMaterial shadowArmorMaterial = EnumHelper.addArmorMaterial("ShadowArmor", 55, new int[]{5, 8, 7, 4}, 35);
-	protected static ArmorMaterial endperArmorMaterial = EnumHelper.addArmorMaterial("EnderperliteArmor", 65, new int[]{7, 10, 8, 5}, 40);
+	protected static ToolMaterial airToolMaterial = EnumHelper.addToolMaterial("AirTool", 3, 1850, 12.5F, 4.5F, 13);
+	protected static ToolMaterial shadowToolMaterial = EnumHelper.addToolMaterial("ShadowTool", 4, 2750, 14.0F, 5.5F, 17);
+	protected static ToolMaterial enderPerliteToolMaterial = EnumHelper.addToolMaterial("EnderPerlite", 5, 4500, 16.0F, 7.0F, 21);
+	protected static ToolMaterial enderblood = EnumHelper.addToolMaterial("EnderBlood", 6, 20000, 20.0F, 14.5F, 30);
+	protected static ArmorMaterial airArmorMaterial = EnumHelper.addArmorMaterial("AirArmor", 50, new int[]{4, 8, 5, 3}, 30);
+	protected static ArmorMaterial shadowArmorMaterial = EnumHelper.addArmorMaterial("ShadowArmor", 65, new int[]{5, 9, 6, 3}, 35);
+	protected static ArmorMaterial endperArmorMaterial = EnumHelper.addArmorMaterial("EnderperliteArmor", 80, new int[]{6, 10, 7, 4}, 45);
 
     @EventHandler
 	public void preInit(FMLPreInitializationEvent event)

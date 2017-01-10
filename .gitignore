@@ -23,7 +23,8 @@ hs_err_pid*
 .LSOverride
 
 # Icon must ends with two \r.
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -34,6 +35,8 @@ Icon
 
 # Windows
 # =========================
+
+*.Ink
 
 # Windows image file caches
 Thumbs.db
@@ -51,7 +54,8 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
-
+#Temporary files
+~$*
 #eclipse
 *.project
 *.classpath
@@ -71,3 +75,4 @@ Build.bat
 
 *.pub
 
+*.lnk

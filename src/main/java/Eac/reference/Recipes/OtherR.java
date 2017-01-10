@@ -23,7 +23,7 @@ public class OtherR extends Recipes{
                 "NEN",
                 "DND",
                 'D', Blocks.diamond_block, 'N', Items.nether_star, 'E', Blocks.dragon_egg});
-        // activation catalyst
+        // Activation Catalyst
         GameRegistry.addRecipe(new ItemStack(activationcatalyst, 1), new Object[]{
                 "DXF",
                 " B ",
@@ -34,6 +34,7 @@ public class OtherR extends Recipes{
                 " B ",
                 "III",
                 'D', ModItems.dustAir, 'X', featherblock, 'F', Items.feather, 'B', Blocks.iron_block, 'I', Items.iron_ingot});
+        // Featherblock
         GameRegistry.addRecipe(new ItemStack(featherblock, 1), new Object[]{
                 "FFF",
                 "F F",
@@ -42,5 +43,9 @@ public class OtherR extends Recipes{
     }
 
     public static void shapeless(){
+    }
+
+    // No Other Compatible Mods for Custom crafting, using Vanilla Recipes now.
+    public static void nocm(){
     }
 }

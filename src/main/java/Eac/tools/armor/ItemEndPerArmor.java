@@ -18,9 +18,9 @@ public class ItemEndPerArmor extends ItemArmor {
     @Override
     public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type) {
         if (stack.getItem() == ToolsEac.endperHelmet || stack.getItem() == ToolsEac.endperChestPlate || stack.getItem() == ToolsEac.endperBoots) {
-            return Reference.MOD_ID.toLowerCase() + ":models/armor/endperArmor1.png";
+            return Reference.MOD_ID.toLowerCase() + ":models/armor/endPerArmor1.png";
         } else if (stack.getItem() == ToolsEac.endperLegs) {
-            return Reference.MOD_ID.toLowerCase() + ":models/armor/emdperArmor2.png";
+            return Reference.MOD_ID.toLowerCase() + ":models/armor/endPerArmor2.png";
         }
         return null;
     }
