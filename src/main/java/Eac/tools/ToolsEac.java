@@ -1,6 +1,7 @@
 package Eac.tools;
 
 import Eac.Eac;
+import Eac.handler.ConfigHandler;
 import Eac.tools.Air.*;
 import Eac.tools.EnderPerlite.*;
 import Eac.tools.Other.ItemAerSword;
@@ -52,7 +53,9 @@ public class ToolsEac extends Eac
 		endperLegs = new ItemEndPerArmor(endperArmorMaterial, 2, "endperLegs");
 		endperBoots = new ItemEndPerArmor(endperArmorMaterial, 3, "endperBoots");
 		// Misc Tools
-		GameRegistry.registerItem(bladedblood, "Dead_Blood_Blade");
+		if (ConfigHandler.booleanBlood = true ) {
+			GameRegistry.registerItem(bladedblood, "Dead_Blood_Blade");
+		}
 		GameRegistry.registerItem(aersword, "Aerial_Sword");
 		// Air Tools
 		GameRegistry.registerItem(airpick, "Air_Pickaxe");

@@ -1,5 +1,6 @@
 package Eac.reference.Recipes;
 
+import Eac.block.BlockEac;
 import Eac.init.ModItems;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
@@ -45,12 +46,6 @@ public class AirR extends Recipes{
         GameRegistry.addRecipe(new ItemStack(airHelmet, 1), new Object[]{
                 "III",
                 "I I",
-                "   ",
-                'I', ModItems.ingotair});
-        GameRegistry.addRecipe(new ItemStack(airHelmet, 1), new Object[]{
-                "   ",
-                "III",
-                "I I",
                 'I', ModItems.ingotair});
         GameRegistry.addRecipe(new ItemStack(airChestPlate, 1), new Object[]{
                 "I I",
@@ -63,12 +58,6 @@ public class AirR extends Recipes{
                 "I I",
                 'I', ModItems.ingotair});
         GameRegistry.addRecipe(new ItemStack(airBoots, 1), new Object[]{
-                "I I",
-                "I I",
-                "   ",
-                'I', ModItems.ingotair});
-        GameRegistry.addRecipe(new ItemStack(airBoots, 1), new Object[]{
-                "   ",
                 "I I",
                 "I I",
                 'I', ModItems.ingotair});
@@ -102,5 +91,12 @@ public class AirR extends Recipes{
 
         // Smelting Recipes
         GameRegistry.addSmelting(new ItemStack(ModItems.dustAirAct), new ItemStack(ModItems.ingotair), 1.0F);
+    }
+
+    // No Other Compatible Mods for Custom crafting, using Vanilla Recipes now.
+    public static void nocm(){
+
+        GameRegistry.addSmelting(new ItemStack(BlockEac.oreAir), new ItemStack(ModItems.dustAir), 1.0F);
+
     }
 }

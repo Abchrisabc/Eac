@@ -16,9 +16,9 @@ public class EntityEnderGuard extends EntityEnderman {
     @Override
     protected void applyEntityAttributes() {
         super.applyEntityAttributes();
-        this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(75.0D);
-        this.getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(0.30000001192092896D);
-        this.getEntityAttribute(SharedMonsterAttributes.attackDamage).setBaseValue(14.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(120.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(0.5477225684D);
+        this.getEntityAttribute(SharedMonsterAttributes.attackDamage).setBaseValue(40.0D);
     }
 
     @Override

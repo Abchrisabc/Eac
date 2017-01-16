@@ -1,6 +1,8 @@
 package Eac.reference.Recipes;
 
+import Eac.block.BlockEac;
 import Eac.init.ModItems;
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -45,12 +47,6 @@ public class ShadowR extends Recipes{
         GameRegistry.addRecipe(new ItemStack(shadowHelmet, 1), new Object[]{
                 "III",
                 "I I",
-                "   ",
-                'I', ModItems.ingotShadow});
-        GameRegistry.addRecipe(new ItemStack(shadowHelmet, 1), new Object[]{
-                "   ",
-                "III",
-                "I I",
                 'I', ModItems.ingotShadow});
         GameRegistry.addRecipe(new ItemStack(shadowChestPlate, 1), new Object[]{
                 "I I",
@@ -63,12 +59,6 @@ public class ShadowR extends Recipes{
                 "I I",
                 'I', ModItems.ingotShadow});
         GameRegistry.addRecipe(new ItemStack(shadowBoots, 1), new Object[]{
-                "I I",
-                "I I",
-                "   ",
-                'I', ModItems.ingotShadow});
-        GameRegistry.addRecipe(new ItemStack(shadowBoots, 1), new Object[]{
-                "   ",
                 "I I",
                 "I I",
                 'I', ModItems.ingotShadow});
@@ -84,5 +74,18 @@ public class ShadowR extends Recipes{
 
         // Smelting Recipes
         GameRegistry.addSmelting(new ItemStack(ModItems.dustShadow), new ItemStack(ModItems.ingotShadow), 2.0F);
+    }
+
+    // No Other Compatible Mods for Custom crafting, using Vanilla Recipes now.
+    public static void nocm(){
+
+        // testing
+        GameRegistry.addRecipe(new ItemStack(ModItems.cdustShadow, 2), new Object[]{
+                "PSP",
+                "RAR",
+                'P', Blocks.piston, 'S', BlockEac.oreShadow, 'R', Blocks.redstone_torch, 'A', Blocks.anvil
+        });
+
+
     }
 }

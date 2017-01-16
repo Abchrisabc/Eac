@@ -42,14 +42,14 @@ item.endperChestPlate.name=Enderperlite Body Armor
 item.endperLegs.name=Enderperlite Shinguards
 item.endperBoots.name=Enderperlite Footwear
 // Blocks
-tile.blockIshadow.name=Block of the 9 Shadow Ingots
-tile.blockIair.name=Block of the 9 Air Ingots
-tile.blockDair.name=Block of Air Dust
-tile.blockaDair.name=Block of Active Air Dust
+tile.blockIshadow.name=Shadow Ingot Block
+tile.blockIair.name=Air Ingot Block
+tile.blockDair.name=Air Dust Block
+tile.blockaDair.name=Active Air Dust Block
 tile.oreAir.name=Air Ore
 tile.oreShadow.name=Shadow Ore
 tile.featherblock.name=Feather Block
-tile.enderperlite.name= Block of Enderperlite
+tile.enderperlite.name=Enderperlite Block
 // TileEntities
 tile.activation_catalyst.name= Activation Catalyst
 // Metadata Blocks
@@ -72,3 +72,5 @@ entity.EnderGuardian.name=Ender Guardian
 item.diamond.name=Useless Diamond
 tile.oreDiamond.name=Useless Ore
 tile.blockDiamond.name=Block of Wasted Time
+item.blazeRod.name=Pyru's Blazing Rod
+item.magmaCream.name=Pyru's Hot Cream
