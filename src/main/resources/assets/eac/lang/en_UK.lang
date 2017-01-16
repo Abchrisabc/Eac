@@ -1,0 +1,76 @@
+itemGroup.tabEac=Eac Items
+// Items
+item.eac:enderstar.name=Ender Star
+item.bladedblood.name=Dead Blood Blade
+item.aerSword.name=Aerial Sword
+item.airPick.name=Air Pickaxe
+item.airAxe.name=Air Axe
+item.airSword.name=Air Sword
+item.airSpade.name=Air Shovel
+item.airHoe.name=Air Hoe
+item.eac:dustAir.name=Air Dust
+item.eac:dustAiract.name=Active Air Dust
+item.eac:ingotAir.name=Air Ingot
+item.airHelmet.name=Air Helmet
+item.airChestPlate.name=Air Chestplate
+item.airLegs.name=Air Leggings
+item.airBoots.name=Air Boots
+item.shadowPick.name=Shadow Pickaxe
+item.shadowAxe.name=Shadow Axe
+item.shadowSword.name=Shadow Sword
+item.shadowSpade.name=Shadow Shovel
+item.shadowHoe.name=Shadow Hoe
+item.eac:ingotShadow.name=Shadow Ingot
+item.eac:itemCrushedShadowOre.name=Crushed Shadow Ore
+item.eac:itemPurifiedCrushedShadowOre.name=Purified Crushed Shadow Ore
+item.eac:dustShadow.name=Shadow Dust
+item.shadowHelmet.name=Shadow Cap
+item.shadowChestPlate.name=Shadow Shirt
+item.shadowLegs.name=Shadow Trousers
+item.shadowBoots.name=Shadow Shoes
+item.eac:enderperlite.name=Enderperlite
+item.eac:mEnderperlite.name=Molten Enderperlite
+item.eac:cEnderperlite.name=Cut Enderperlite
+item.eac:ingotEnderperlite.name=Enderperlite 'Ingot'
+item.endPerPick.name=Enderperlite Pickaxe
+item.endPerAxe.name=Enderperlite Axe
+item.endPerSpade.name=Enderperlite Shovel
+item.endPerSword.name=Enderperlite Sword
+item.endPerHoe.name=Enderperlite Hoe
+item.endperHelmet.name=Enderperlite Helmet
+item.endperChestPlate.name=Enderperlite Body Armor
+item.endperLegs.name=Enderperlite Shinguards
+item.endperBoots.name=Enderperlite Footwear
+// Blocks
+tile.blockIshadow.name=Shadow Ingot Block
+tile.blockIair.name=Air Ingot Block
+tile.blockDair.name=Air Dust Block
+tile.blockaDair.name=Active Air Dust Block
+tile.oreAir.name=Air Ore
+tile.oreShadow.name=Shadow Ore
+tile.featherblock.name=Feather Block
+tile.enderperlite.name=Enderperlite Block
+// TileEntities
+tile.activation_catalyst.name= Activation Catalyst
+// Metadata Blocks
+tile.softFaller.t1.name=Fall Softener Tier 1
+tile.softFaller.t2.name=Fall Softener Tier 2
+tile.softFaller.t3.name=Fall Softener Tier 3
+tile.softFaller.t4.name=Fall Softener Tier 4
+tile.softFaller.t5.name=Fall Softener Tier 5
+tile.softFaller.t6.name=Fall Softener Tier 6
+tile.softFaller.t7.name=Fall Softener Tier 7
+tile.softFaller.t8.name=Fall Softener Tier 8
+// Achievements
+achievement.airoremined=Air Ore Mined
+achievement.airoremined.desc=Goodbye Diamonds!!!
+achievement.shadoworemined=Shadow Ore Mined
+achievement.shadoworemined.desc=Surprised that your pick didn't break
+// Entity
+entity.EnderGuardian.name=Ender Guardian
+// Random
+item.diamond.name=Useless Diamond
+tile.oreDiamond.name=Useless Ore
+tile.blockDiamond.name=Block of Wasted Time
+item.blazeRod.name=Pyru's Blazing Rod
+item.magmaCream.name=Pyru's Hot Cream

@@ -76,3 +76,4 @@ Build.bat
 *.pub
 
 *.lnk
+.idea/
