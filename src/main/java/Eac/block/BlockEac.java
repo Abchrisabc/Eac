@@ -5,7 +5,7 @@ import Eac.block.Air.BlockDustAir;
 import Eac.block.Air.BlockDustaAir;
 import Eac.block.Air.BlockIngotAir;
 import Eac.block.Air.BlockOreAir;
-// import Eac.block.Other.BlockActivationCatalyst;
+import Eac.block.Other.BlockActivationCatalyst;
 import Eac.block.Other.BlockEnderPerlite;
 import Eac.block.Other.BlockFeather;
 import Eac.block.Other.BlockSoftfall;
@@ -23,9 +23,7 @@ public class BlockEac extends Eac {
         benderperlite = new BlockEnderPerlite();
         featherblock = new BlockFeather();
         softfaller = new BlockSoftfall();
-
-        // TODO Fix Gui Bug activationcatalyst
-        // activationcatalyst = new BlockActivationCatalyst();
+        activationcatalyst = new BlockActivationCatalyst();
     }
 
 }
