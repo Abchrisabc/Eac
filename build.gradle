@@ -21,7 +21,7 @@ apply plugin: 'curseforge'
 apply plugin: 'maven'
 
 repositories {
-    maven { url = "http://mobiusstrip.eu/maven" }
+    //maven { url = "http://mobiusstrip.eu/maven" }
     maven { url = "http://chickenbones.net/maven/" }
     maven { url = "http://maven.ic2.player.to/" }
 }
@@ -29,10 +29,10 @@ repositories {
 dependencies {
     compile "com.pahimar.ee3:EquivalentExchange3:1.7.10-0.3.505:dev"
     compile 'net.industrial-craft:industrialcraft-2:2.2.584-experimental:dev'
-    compile "mcp.mobius.waila:Waila:1.5.7a_1.7.10"
-    // compile "codechicken:CodeChickenLib:1.7.10-1.1.3.136:dev"
-    // compile "codechicken:CodeChickenCore:1.7.10-1.0.4.29:dev"
-    // compile "codechicken:NotEnoughItems:1.7.10-1.0.3.74:dev"
+    //compile "mcp.mobius.waila:Waila:1.5.7a_1.7.10"
+    compile "codechicken:CodeChickenLib:1.7.10-1.1.3.136:dev"
+    compile "codechicken:CodeChickenCore:1.7.10-1.0.4.29:dev"
+    compile "codechicken:NotEnoughItems:1.7.10-1.0.3.74:dev"
 }
 
 ext.configFile = file "build.properties"
